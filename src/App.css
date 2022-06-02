@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vw;
+}
+
+@media (min-width: 1024px) {
+  .App {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5vw;
+  }
+}
+
+@media (min-width: 1441px) {
+  .App {
+    padding: 0 8vw;
+  }
+}
