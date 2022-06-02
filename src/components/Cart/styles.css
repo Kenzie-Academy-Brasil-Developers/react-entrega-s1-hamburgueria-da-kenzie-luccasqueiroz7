@@ -140,6 +140,11 @@
   color: #828282;
 }
 
+.footerCart > button:hover {
+  background: #27ae60;
+  color: #ffffff;
+}
+
 @media (min-width: 600px) and (max-width: 1023px) {
   .cart {
     display: flex;

@@ -53,6 +53,10 @@
   color: #ffffff;
 }
 
+.search > button:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 760px) {
   .headerPag {
     width: 100vw;
